@@ -12,30 +12,30 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWorkTwoViews" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" id="fjp-F3-R5I">
-                                <rect key="frame" x="35" y="542" width="358" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjp-F3-R5I">
+                                <rect key="frame" x="37" y="743" width="415" height="436"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" id="Vd5-IG-Dos">
-                                <rect key="frame" x="35" y="101" width="358" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vd5-IG-Dos">
+                                <rect key="frame" x="186" y="160" width="364" height="314"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="Vd5-IG-Dos" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="Eto-cs-PrD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fjp-F3-R5I" secondAttribute="bottom" constant="50" id="gMC-Jj-yPK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fjp-F3-R5I" secondAttribute="trailing" constant="35" id="hrz-Aa-5rw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vd5-IG-Dos" secondAttribute="trailing" constant="35" id="r0F-Al-v1k"/>
-                            <constraint firstItem="fjp-F3-R5I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="sqz-yB-Lik"/>
-                            <constraint firstItem="Vd5-IG-Dos" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="xnd-d8-3AM"/>
+                            <constraint firstItem="fjp-F3-R5I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="57U-jr-DO4"/>
+                            <constraint firstItem="fjp-F3-R5I" firstAttribute="height" secondItem="Vd5-IG-Dos" secondAttribute="height" id="94J-0A-BFC"/>
+                            <constraint firstItem="Vd5-IG-Dos" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="RnC-h0-AKT"/>
+                            <constraint firstItem="fjp-F3-R5I" firstAttribute="top" secondItem="Vd5-IG-Dos" secondAttribute="bottom" constant="129" id="Wdh-SB-6oo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fjp-F3-R5I" secondAttribute="trailing" constant="32" id="cRg-fp-HF8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vd5-IG-Dos" secondAttribute="trailing" constant="32" id="eee-E4-U0X"/>
+                            <constraint firstItem="Vd5-IG-Dos" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="pXf-yo-ZeV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fjp-F3-R5I" secondAttribute="bottom" constant="43" id="xKi-b5-gwX"/>
                         </constraints>
                     </view>
                 </viewController>
